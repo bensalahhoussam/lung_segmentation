@@ -17,7 +17,6 @@ from tensorflow.keras.optimizers import Adam
 image_data = "C://Users/Houssem/Downloads/NLM-MontgomeryCXRSet/MontgomerySet/CXR_png/"
 left_data_mask = "C://Users/Houssem/Downloads/NLM-MontgomeryCXRSet/MontgomerySet/ManualMask/leftMask/"
 right_data_mask = "C://Users/Houssem/Downloads/NLM-MontgomeryCXRSet/MontgomerySet/ManualMask/rightMask/"
-
 path_1, path_2, path_3 = load_data(image_data, left_data_mask, right_data_mask)
 
 x_train, x_test = path_1[:100], path_1[100:]
