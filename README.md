@@ -31,7 +31,7 @@ The attention module consists of a simple 2D-convolutional layer, MLP(in the cas
 ![4](https://user-images.githubusercontent.com/112108580/194534051-57a6fcaa-dc32-479f-939f-c857629ca28e.png)
 
 # table 
-| Loss Function | Dice Coefficient |
+| Loss Function | Dice Coefficient---|
 | --- | --- |
 | `Cross Entropy Loss` | 0.7831 0.7968 |
 | `Focal Loss` | 0.8237 0.8379 |
