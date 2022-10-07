@@ -4,7 +4,8 @@ This repository contains the code for the lung segmentation on the Montgomery da
 The aim of this work was to compaire between two architecture and find which one can have better performonce by introducing cbam into unet and imporved dice loss by mining the information of negative areas. 
 
 The improved dice loss called weighted dice loss (W_Dice loss). this loss function gives a small weight to the background area of the label, so the
-background area will be added to the calculation when calculating dice loss , it's same idea as label smoothing.
+background area will be added to the calculation when calculating dice loss , it's same idea as label smoothing so it ![image](https://user-images.githubusercontent.com/112108580/194522858-7c21a107-c24f-444b-9d86-2b8e7e00106b.png)
+
 
 
 
