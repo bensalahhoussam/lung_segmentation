@@ -40,6 +40,6 @@ For evaluation of model output was Dice metrics, well known for such kind of com
 | `W_Dice Loss` | 0.8213 | 0.8411 |
 
 ## References
-# https://arxiv.org/pdf/1505.04597.pdf - U-Net: Convolutional Networks for Biomedical Image Segmentation.
-# https://arXiv:1807.06521CBAM: - Convolutional Block Attention Module.
+https://arxiv.org/pdf/1505.04597.pdf - U-Net: Convolutional Networks for Biomedical Image Segmentation.
+https://arXiv:1807.06521CBAM: - Convolutional Block Attention Module.
 
