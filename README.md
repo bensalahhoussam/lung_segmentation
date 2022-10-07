@@ -11,6 +11,10 @@ the one hot type hard label, which reduces the confidence of the positive sample
 ![Screenshot 2022-10-07 103039](https://user-images.githubusercontent.com/112108580/194523771-3fd3cfba-7e13-40cf-8521-eb7d92ca16f0.png)
 
 
+Attention modules are used to make CNN learn and focus more on the important information, rather than learning non-useful background information. In the case of object classification, useful information is the target class crop that we want to classify and localize in an image.
+The attention module consists of a simple 2D-convolutional layer, MLP(in the case of channel attention), and sigmoid function at the end to generate a mask of the input feature map.
+
+![0_DGvAEv6WuMBHT8n8](https://user-images.githubusercontent.com/112108580/194531356-298e3b5e-0616-4342-b517-bea577d36281.png)
 
 
 
