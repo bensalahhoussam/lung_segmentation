@@ -37,3 +37,7 @@ The attention module consists of a simple 2D-convolutional layer, MLP(in the cas
 | `Focal Loss` | 0.8137 | 0.8479 |
 | `Dice Loss` | 0.8076 | 0.8152 |
 | `W_Dice Loss` | 0.8213 | 0.8411 |
+
+## References
+https://arxiv.org/pdf/1505.04597.pdf - U-Net: Convolutional Networks for Biomedical Image Segmentation
+
