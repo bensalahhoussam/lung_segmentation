@@ -29,3 +29,9 @@ The attention module consists of a simple 2D-convolutional layer, MLP(in the cas
 3-Predicted mask
 
 ![4](https://user-images.githubusercontent.com/112108580/194534051-57a6fcaa-dc32-479f-939f-c857629ca28e.png)
+
+# table 
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
