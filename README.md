@@ -5,8 +5,11 @@ The aim of this work was to compaire between two architecture and find which one
 
 The improved dice loss called weighted dice loss (W_Dice loss). this loss function gives a small weight to the background area of the label, so the
 background area will be added to the calculation when calculating dice loss , it's same idea as label smoothing so it can ensure that dice loss is
-used to address the unbalanced sample distribution problem and it can deeply mine the information in the positive and negative samples.
+used to address the unbalanced sample distribution problem and it can deeply mine the information in the positive and negative samples pixels by softens 
+the one hot type hard label, which reduces the confidence of the positive samples in the label and increases the confidence of the negative samples.
+
 ![Screenshot 2022-10-07 103039](https://user-images.githubusercontent.com/112108580/194523771-3fd3cfba-7e13-40cf-8521-eb7d92ca16f0.png)
+
 
 
 
