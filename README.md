@@ -1,4 +1,4 @@
-## 🦉 Lung-Segmentation_in_TensorFlow-2.0
+## 🦉 Lung-Segmentation_with_CBAM_in_TensorFlow-2.0
 This repository contains the code for the lung segmentation on the Montgomery dataset using UNET and attention UNET architecture using Convolutional Block Attention Module(cbam) in TensorFlow 2.0 framework.
 
 The aim of this work was to compaire between two architecture and find which one can have better performonce by introducing cbam into unet and imporved dice loss by mining the information of negative areas. 
