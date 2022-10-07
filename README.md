@@ -30,7 +30,7 @@ The attention module consists of a simple 2D-convolutional layer, MLP(in the cas
 
 ![4](https://user-images.githubusercontent.com/112108580/194534051-57a6fcaa-dc32-479f-939f-c857629ca28e.png)
 
-# table 
+
 | Loss Function | DC_unet |DC_unet_improved|
 | --- | --- | --- |
 | `Cross Entropy Loss` | 0.7531 | 0.7868 |
