@@ -30,6 +30,7 @@ The attention module consists of a simple 2D-convolutional layer, MLP(in the cas
 
 ![4](https://user-images.githubusercontent.com/112108580/194534051-57a6fcaa-dc32-479f-939f-c857629ca28e.png)
 
+For evaluation of model output was Dice metrics, well known for such kind of computer vision tasks. it is the same with F1 measure. it show the overlap between ground truth and calculated mask.
 
 | Loss Function | DC_unet |DC_unet_improved|
 | --- | --- | --- |
